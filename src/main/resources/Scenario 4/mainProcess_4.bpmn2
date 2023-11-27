@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_veeGAGUtEDy2HOhLh0c4iA" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd http://www.omg.org/spec/DD/20100524/DC DC.xsd http://www.omg.org/spec/DD/20100524/DI DI.xsd " exporter="jBPM Process Modeler" exporterVersion="2.0" targetNamespace="http://www.omg.org/bpmn20">
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_1u3z0G9DEDyW1J0nwelbYg" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd http://www.omg.org/spec/DD/20100524/DC DC.xsd http://www.omg.org/spec/DD/20100524/DI DI.xsd " exporter="jBPM Process Modeler" exporterVersion="2.0" targetNamespace="http://www.omg.org/bpmn20">
   <bpmn2:itemDefinition id="_isRestrictedCountryItem" structureRef="Boolean"/>
   <bpmn2:itemDefinition id="_personItem" structureRef="Object"/>
   <bpmn2:itemDefinition id="__41C2BFCC-6663-4E22-946A-D88742CC3D4E_fileNameInputXItem" structureRef="java.lang.String"/>
@@ -14,10 +14,10 @@
   <bpmn2:itemDefinition id="__29363478-7ADF-4553-8668-09F9F9480D73_decisionInputXItem" structureRef="java.lang.String"/>
   <bpmn2:itemDefinition id="__29363478-7ADF-4553-8668-09F9F9480D73_personInputXItem" structureRef="Object"/>
   <bpmn2:itemDefinition id="__29363478-7ADF-4553-8668-09F9F9480D73_isRestrictedCountryOutputXItem" structureRef="Boolean"/>
-  <bpmn2:collaboration id="_7125D55C-94CF-4CF2-A58C-CE1CF47552DC" name="Default Collaboration">
-    <bpmn2:participant id="_970B6D6A-3467-41BB-8B65-41BF6A894C36" name="Pool Participant" processRef="mainProcess_5"/>
+  <bpmn2:collaboration id="_435E0382-2DA2-4405-A62B-B52B82446041" name="Default Collaboration">
+    <bpmn2:participant id="_5DA8C8EF-1E3A-4916-8FC2-3ACC42C6FFA0" name="Pool Participant" processRef="mainProcess_4"/>
   </bpmn2:collaboration>
-  <bpmn2:process id="mainProcess_5" drools:packageName="com.example" drools:version="1.0" drools:adHoc="false" name="mainProcess_5" isExecutable="true" processType="Public">
+  <bpmn2:process id="mainProcess_4" drools:packageName="com.example" drools:version="1.0" drools:adHoc="false" name="mainProcess_4" isExecutable="true" processType="Public">
     <bpmn2:property id="isRestrictedCountry" itemSubjectRef="_isRestrictedCountryItem" name="isRestrictedCountry">
       <bpmn2:extensionElements>
         <drools:metaData name="customTags">
@@ -148,7 +148,7 @@
     </bpmn2:startEvent>
   </bpmn2:process>
   <bpmndi:BPMNDiagram>
-    <bpmndi:BPMNPlane bpmnElement="mainProcess_5">
+    <bpmndi:BPMNPlane bpmnElement="mainProcess_4">
       <bpmndi:BPMNShape id="shape__B6D98AE7-FEEC-443A-8F69-388FAEB7A8E2" bpmnElement="_B6D98AE7-FEEC-443A-8F69-388FAEB7A8E2">
         <dc:Bounds height="56" width="56" x="61" y="173"/>
       </bpmndi:BPMNShape>
@@ -231,7 +231,7 @@
         </bpsim:Scenario>
       </bpsim:BPSimData>
     </bpmn2:extensionElements>
-    <bpmn2:source>_veeGAGUtEDy2HOhLh0c4iA</bpmn2:source>
-    <bpmn2:target>_veeGAGUtEDy2HOhLh0c4iA</bpmn2:target>
+    <bpmn2:source>_1u3z0G9DEDyW1J0nwelbYg</bpmn2:source>
+    <bpmn2:target>_1u3z0G9DEDyW1J0nwelbYg</bpmn2:target>
   </bpmn2:relationship>
 </bpmn2:definitions>
