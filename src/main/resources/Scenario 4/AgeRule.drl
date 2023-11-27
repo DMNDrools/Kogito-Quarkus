@@ -1,0 +1,13 @@
+package rules;
+import org.acme.Person; 
+dialect "mvel" 
+
+rule "Person Age Check"
+ruleflow-group "personCheck"
+ 
+when
+    person: Person(age >= 18)
+then
+    person.setAdult(true); 
+    System.out.println(":::Inside DRL:::" );
+end
